@@ -1,7 +1,6 @@
 import { Home } from '@/pages/home'
 import { Layout } from '@/pages/layout'
 import { Pedidos } from '@/pages/pedidos'
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 export const AppRoutes = () => {
