@@ -23,7 +23,6 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: mv /home/frantec/actions-runner/dash-admin/dashboard-admin/dashboard-admin/dist /home/frantec/actions-runner/dash-admin/dashboard-admin/dashboard-admin/dashadmin
 
     - name: Deploy with gh-pages
       run: |
